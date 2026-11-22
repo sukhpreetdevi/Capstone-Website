@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation and Podcast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-content">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">↗</span>
+      <span>Healthy Habits<br>in a Digital World</span>
+    </a>
+
+    <button class="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="campaign.html">Campaign</a>
+      <a class="active" href="podcast.html">Media</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="tracker.html">Prototype</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Deliverables 02 and 04</div>
+      <h1>Stories create room for reflection.</h1>
+      <p>
+        This page presents the 2D animation and podcast deliverables.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="animation">
+    <div class="container two-column">
+      <div>
+        <div class="eyebrow">Deliverable 02 · Animation</div>
+        <h2>One More Scroll?</h2>
+
+        <video class="media-player" controls>
+          <source
+            src="assets/videos/digital-habits-animation.mp4"
+            type="video/mp4"
+          >
+          Your browser does not support video playback.
+        </video>
+
+        <button
+          class="button button-red transcript-button"
+          data-target="animation-transcript"
+        >
+          Show transcript
+        </button>
+
+        <div id="animation-transcript" class="card" hidden>
+          <h3>Animation transcript</h3>
+          <p>
+            Add the complete spoken dialogue, sound cues, and meaningful visual
+            descriptions here.
+          </p>
+        </div>
+      </div>
+
+      <div class="card editable">
+        <h3>Animation rationale</h3>
+        <p>
+          Replace this text with your final 175–200 word rationale explaining
+          the narrative arc, visual design, accessibility decisions, and
+          research connection.
+        </p>
+
+        <h3>Credits</h3>
+        <p>Add your voice, music, illustration, and caption credits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="podcast">
+    <div class="container two-column">
+      <div>
+        <div class="eyebrow">Deliverable 04 · Podcast</div>
+        <h2>Between the Scrolls</h2>
+
+        <div class="media-placeholder">
+          Replace with podcast-cover.jpg
+        </div>
+
+        <audio controls class="media-player">
+          <source src="assets/audio/podcast-episode.mp3" type="audio/mpeg">
+          Your browser does not support audio playback.
+        </audio>
+
+        <button
+          class="button button-red transcript-button"
+          data-target="podcast-transcript"
+        >
+          Show transcript
+        </button>
+
+        <div id="podcast-transcript" class="card" hidden>
+          <h3>Podcast transcript</h3>
+          <p>
+            Add your complete episode transcript and speaker labels here.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Episode description</h3>
+        <p>
+          A reflective conversation about the difference between being connected
+          and being constantly pulled toward a screen.
+        </p>
+
+        <h3>Promotional post 01</h3>
+        <p>
+          What does “enough” feel like after a long day online?
+        </p>
+
+        <h3>Promotional post 02</h3>
+        <p>
+          Your digital routine is something you can notice and reshape.
+        </p>
+
+        <div class="editable">
+          <h3>Podcast rationale</h3>
+          <p>
+            Replace this with your final 175–200 word rationale.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Healthy Habits<br>in a Digital World</h3>
+      <p>Understand Your Habits. Find Your Balance.</p>
+    </div>
+
+    <div>
+      <h3>Explore</h3>
+      <p>
+        <a href="index.html">Home</a><br>
+        <a href="research.html">Research</a><br>
+        <a href="tracker.html">Prototype</a>
+      </p>
+    </div>
+
+    <div>
+      <h3>Context</h3>
+      <p>University of Niagara Falls Canada</p>
+      <p class="muted">Independent student capstone project.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" aria-label="Scroll to top">↑</button>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
